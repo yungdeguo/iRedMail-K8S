@@ -65,8 +65,8 @@ RUN yum install -y mariadb-server openssl \
 ADD static_files /
 
 # Starting mechanism
-#ENTRYPOINT ["/entrypoint.sh"]
-#CMD ["supervisord"]
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["supervisord"]
 
 # Open Ports:
 # Apache: 80/tcp, 443/tcp Postfix: 25/tcp, 587/tcp
