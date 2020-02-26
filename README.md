@@ -11,7 +11,7 @@ iRedMail允许在几分钟之内免费部署一个开放源代码，全功能的
 MYSQL_ROOT_PASSWORD: 设置MySQL服务器安装时的初始化root账号密码；
 POSTMASTER_PASSWORD: 设置postmaster@DOMAIN的初始密码(邮箱管理员账号)，密码设置方式：({PLAIN}password)；
 SOGO_WORKERS: 调整可能影响SOGo接口性能的参数，默认为: 2；
-TZ: 设置容器时区
+TZ: 设置容器时区；
 
 数据持久化目录:
 
